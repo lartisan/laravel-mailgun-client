@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/12.0/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+
+    <source>
+        <include>
+            <directory suffix=".php">./src</directory>
+        </include>
+    </source>
+
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="MAILGUN_DOMAIN" value="test.example.com"/>
+        <env name="MAILGUN_SECRET" value="key-test-secret"/>
+        <env name="MAILGUN_API_KEY" value="key-test-api"/>
+        <env name="MAILGUN_SENDING_API_KEY" value="key-test-sending"/>
+        <env name="MAILGUN_ENDPOINT" value="https://api.mailgun.net"/>
+        <env name="MAILGUN_SUBSCRIBERS_LIST" value="newsletter@test.example.com"/>
+    </php>
+</phpunit>
+
