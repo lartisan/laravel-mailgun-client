@@ -1,4 +1,3 @@
-omposer update
 <?php
 
 use Lartisan\MailgunClient\ValueObjects\MailingList;
