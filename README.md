@@ -3,7 +3,7 @@
 <div align="center" class="filament-hidden">
 
 [![Downloads](https://img.shields.io/packagist/dt/lartisan/laravel-mailgun-client.svg?style=flat-square)](https://packagist.org/packages/lartisan/laravel-mailgun-client/stats)
-[![Tests](https://img.shields.io/github/actions/workflow/status/lartisan/laravel-mailgun-client/facebook-data-deletion-package-tests.yml?branch=main&style=flat-square&label=tests)](https://github.com/lartisan/laravel-mailgun-client/actions)
+[![Tests](https://img.shields.io/github/actions/workflow/status/lartisan/laravel-mailgun-client/tests.yml?branch=main&style=flat-square&label=tests)](https://github.com/lartisan/laravel-mailgun-client/actions)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lartisan/laravel-mailgun-client.svg?style=flat-square)](https://packagist.org/packages/lartisan/laravel-mailgun-client)
 [![License](https://img.shields.io/packagist/l/lartisan/laravel-mailgun-client.svg?style=flat-square)](https://github.com/lartisan/laravel-mailgun-client/blob/main/LICENSE)
 
